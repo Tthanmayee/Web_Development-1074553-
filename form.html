@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .grocery {
+            text-align: center;
+            background-color: #fff;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            text-align: left;
+            padding: 0 20px;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+        .item-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .item-group label {
+            flex: 1;
+        }
+        .item-group input[type="number"] {
+            width: 80px;
+            margin-left: 2px;
+            margin-right: 300px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="grocery">
+        <h1>Grocery Form</h1>
+        <form>
+            <label>Select Items:</label><br><br>
+            <label>Fruits:</label><br><br>
+            <div class="item-group">
+                <input type="checkbox" id="item1" name="item1" value="Apple">
+                <label for="item1">Apples</label>
+                <input type="number" id="quantity1" name="quantity1" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item2" name="item2" value="Banana">
+                <label for="item2">Banana</label>
+                <input type="number" id="quantity2" name="quantity2" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item3" name="item3" value="Kiwi">
+                <label for="item3">Kiwi</label>
+                <input type="number" id="quantity3" name="quantity3" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item4" name="item4" value="Orange">
+                <label for="item4">Oranges</label>
+                <input type="number" id="quantity4" name="quantity4" min="1" placeholder="Quantity">
+            </div>
+            <label>Vegetables:</label><br><br>
+            <div class="item-group">
+                <input type="checkbox" id="item5" name="item5" value="Tomatoes">
+                <label for="item5">Tomatoes</label>
+                <input type="number" id="quantity5" name="quantity5" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item6" name="item6" value="Potatoes">
+                <label for="item6">Potatoes</label>
+                <input type="number" id="quantity6" name="quantity6" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item7" name="item7" value="Onions">
+                <label for="item7">Onions</label>
+                <input type="number" id="quantity7" name="quantity7" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item8" name="item8" value="Brinjal">
+                <label for="item8">Brinjal</label>
+                <input type="number" id="quantity8" name="quantity8" min="1" placeholder="Quantity">
+            </div>
+            <label>Dairy:</label><br><br>
+            <div class="item-group">
+                <input type="checkbox" id="item9" name="item9" value="Milk">
+                <label for="item9">Milk</label>
+                <input type="number" id="quantity9" name="quantity9" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item10" name="item10" value="Paneer">
+                <label for="item10">Paneer</label>
+                <input type="number" id="quantity10" name="quantity10" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item11" name="item11" value="Ghee">
+                <label for="item11">Ghee</label>
+                <input type="number" id="quantity11" name="quantity11" min="1" placeholder="Quantity">
+            </div>
+            <div class="item-group">
+                <input type="checkbox" id="item12" name="item12" value="Butter">
+                <label for="item12">Butter</label>
+                <input type="number" id="quantity12" name="quantity12" min="1" placeholder="Quantity">
+            </div>
+            <input type="submit" value="Add to cart"><br><br>
+            <label>Enter Delivery Details:</label><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile"><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br><br>
+            <input type="submit" value="Place Order"><br><br>
+        </form>
+    </div>
+</body>
+</html>
