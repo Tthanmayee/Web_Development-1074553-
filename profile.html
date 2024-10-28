@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .hcard{
+            height: 160px;
+            width: 100%;
+            background-color: white;
+            /* margin-left: 10%; */
+            display: flex;
+            }
+        .left{
+            width: 250px;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            margin-top: 15px;
+            text-align: center;
+            }
+        .right{
+            margin-left: 10px;
+            margin-right: 150px;
+            width: 1000px;
+            height: 100px;
+            margin-top: 25px;
+            text-align:center;
+            }
+        .photo{
+            border-radius: 50%;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: darkgray;
+            /* font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-style: italic;
+            padding: 20px;
+            display: flex;
+            gap: 50px; */
+            padding-left: 350px;
+            /* margin-right: auto; */
+        }
+        .topnav a{
+            float:left;
+            display:block;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+        }
+        .topnav a:hover{
+            text-decoration: underline;
+        }
+        .edu{
+            text-align: left;
+            background-color: white;
+            display:grid;
+            margin-left: 10px;
+        }
+        h1,h3,h7,p{
+            margin: 5px 0;
+        }
+        .skills{
+            text-align: left;
+            background-color:white;
+            display: grid;
+            margin-left: 10px;
+        }
+        .cert{
+            text-align: left;
+            background-color:white;
+            display: grid;
+            margin-left: 10px;
+        }
+        .project{
+            text-align: left;
+            background-color:white;
+            display: grid;
+            margin-left: 10px;
+        }
+        .pub{
+            text-align: left;
+            background-color: white;
+            display:grid;
+            margin-left: 10px;
+        }
+        .edudiv{
+            text-align: left;
+            margin-left: 10px;
+            font-size: large;
+        }
+        .techdiv{
+            text-align: left;
+            padding-left: 550px;
+        }
+        /* .pubdiv{
+            text-align: left;
+            padding-left: 200px;
+        } */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-section {
+            margin: 10px 0;
+        }
+        .footer-section h2 {
+            margin-bottom: 10px;
+        }
+        .footer-section p, .footer-section a {
+            margin: 5px 0;
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            /* margin-top: 20px; */
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .overall{
+            margin: 0px 150px 0px 150px;
+            border: black;
+            border-style: solid;
+            border-width: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#about">About Me</a>
+        <a href="#edu">Education</a>
+        <a href="#techskills">Technical Skills</a>
+        <a href="#certifications">Technical Certificates</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Publications">Publications</a>
+        <a href="#Contact">Contact Me</a>
+    </div>
+    <div class="overall">
+        <div class="hcard" id="about">
+            <div class="left">
+                <img src="../images/1074553.jpg" alt="Thanmayee Reddy Punnam" height="150" width="150" class="photo">
+            </div>
+            <div class="right">
+                <h1>Thanmayee Reddy Punnam</h1>
+                <h3>Associate Software Engineer</h3>
+                <p>Hello! I'm Thanmayee Reddy Punnam, an Associate Software Engineer at Tech Mahindra Ltd., where I contribute to developing efficient and innovative software solutions with a strong foundation in Data Structures and Algorithms, Python Programming, and Web Development.</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="edu" id="edu">
+            <h1>Education</h1>
+        </div>
+            <div class="edudiv">
+                <h3>B. Tech in Computer Science and Engineering (IoT)</h3>
+                <p>Kakatiya Institute of Technology and Science, Warangal - (2020-2024)</p>
+                <p>CGPA:8.56</p>
+            </div>
+            <div class="edudiv">
+                <h3>Intermediate</h3>
+                <p>SR Junior College for Girls, Kakaji Colony - (2018-2020)</p>
+                <p>Percentage: 97.1%</p>
+            </div>
+            <div class="edudiv">
+                <h3>Secondary School</h3>
+                <p>SPR High School - (2017-2018)</p>
+                <p>CGPA: 9.7</p>
+            </div>
+        <hr>
+        <div class="skills" id="techskills">
+            <h1>Technical Skills</h1>
+            <!-- <br> -->
+            <div class="edudiv">
+                <!-- <ul style="list-style-type: square;"> -->
+                    <p>Python Programming</p>
+                    <!-- <br> -->
+                    <p>Data Structures and Algorithms</p>
+                    <!-- <br> -->
+                    <p>Web Development</p>
+                    <!-- <br> -->
+                    <p>SQL</p>
+                    <!-- <br> -->
+                    <p>Cloud</p>
+                <!-- </ul> -->
+            </div>
+        </div>
+        <hr>
+        <div class="cert" id="certifications">
+            <h1>Technical Certifications</h1>
+            <div class="edudiv">
+                <p>CCNAv7: Introduction to Networks - Cisco Networking Academy.</p>
+                <p>AI Programming with Python - Udacity.</p>
+                <p>Java Full Stack - Wipro TalentNext.</p>
+                <p>Networking Essentials Virtual Internship Program - Cisco Networking Academy.</p>
+                <p>Java (Basic) - HackerRank.</p>
+                <p>Database Certificates - Oracle Academy.</p>
+                <p>Data Science and Cloud Solutions Internship - 3CORTEX.</p>
+                <p>Cyber Security Virtual Internship Program - Cisco Networking Academy.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="project" id="Projects">
+            <h1>Projects</h1>
+            <h3>Major Project - Smart Healthcare System Using Fuzzy Neural Networks.</h3>
+            <p>Developed a smart healthcare system integrating fuzzy neural networks to assess the condition of the patient based on the data collected from sensors, accessible via a user-friendly web interface, enhancing user engagement and proactive health management.</p>
+            <h3>Mini Project - Startup Funding Analysis.</h3>
+            <p>Conducted an in-depth analysis of India's startup funding ecosystem using EDA and ensemble machine learning. Identified key trends and developed a predictive model to assess funding success.</p>
+            <h3>Seminar - An IoT-Enabled Intelligent Automobile System for Smart Cities.</h3>
+            <p>Presented a seminar on enhancing the Smart Accident Precognition System (SAPS) with IoT and AI, including Google Assistant for improved safety and performance. Discussed features like RFID keyless entry, in-car safety protocol tracking, and automated operations.</p>
+            <h3>IoT Project - Smart Water Dispenser.</h3>
+            <p>Developed an IoT-enabled water dispenser that monitors and controls water usage through real-time data collection and remote access. Implemented features like automatic refill, usage analytics, and maintenance alerts to enhance efficiency and user convenience.</p>
+        </div>
+        <hr>
+        <div class="pub" id="Publications">
+            <h1>Publications</h1>
+            <h3>Smart Healthcare System Using Fuzzy Neural Networks.</h3>
+            <ul style="list-style-type: square;">
+                <li>Journal : International Research Journal of Modernization in Engineering Technology and Science.</li>
+                <li>Contributed to research on integrating fuzzy neural networks into a smart healthcare system, enabling real-time monitoring and analysis of vital health parameters. Highlighted the system's capability to provide intelligent health assessments and user-friendly interfaces for proactive health management</li>
+            </ul>
+        </div>
+        <hr>
+        <footer>
+            <div class="footer" id="Contact">
+                <div class="footer-section contact">
+                    <h2>Contact</h2>
+                    <img src="../images/mail.jpg" height="20" width="30">
+                    <a href="punnamthanmayeereddy@gmail.com" target="_blank">  punnamthanmayeereddy@gmail.com</a>
+                    <p><img src="../images/phone.jpg" height="20" width="30">  +91 9849404929</p>
+                </div>
+                <div class="footer-section social">
+                    <h2>Follow Me</h2>
+                    <img src="../images/linkedin.jpg" height="20" width="30">
+                    <a href="linkedin.com/in/thanmayee-reddy-punnam" target="_blank">  LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Thanmayee Reddy Punnam. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
